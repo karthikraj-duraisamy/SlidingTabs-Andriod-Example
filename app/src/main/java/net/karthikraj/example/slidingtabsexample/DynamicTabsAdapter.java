@@ -15,12 +15,11 @@ public class DynamicTabsAdapter  extends FragmentPagerAdapter {
     private String tabTitles[] = new String[PAGE_COUNT];
     private Context context;
 
-    public DynamicTabsAdapter(FragmentManager fm, Context context) {
-        super(fm);
+    public DynamicTabsAdapter(FragmentManager fragmentManager, Context context) {
+        super(fragmentManager);
         this.context = context;
 
-        for(int i = 0; i < PAGE_COUNT; i++)
-        {
+        for(int i = 0; i < PAGE_COUNT; i++){
             tabTitles[i] = "TAB"+(i+1);
         }
     }
