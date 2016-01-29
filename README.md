@@ -1,5 +1,5 @@
 # SlidingTabs-Andriod-Example
-A Project which contains the implementation of sliding tabs like the one in play store app, using support library TabLayout
 
+This project is implemented by using ViewPager and TabLayout from support libraries.
 
-A Project which contains the implementation of sliding tabs like the one in play store app, using support library TabLayout 
+A simple implementation of dynamically adding scrollable sliding tabs.
